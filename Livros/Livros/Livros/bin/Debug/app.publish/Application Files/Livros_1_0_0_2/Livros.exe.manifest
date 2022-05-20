@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Livros.exe" version="1.0.0.2" publicKeyToken="f3ff64c75ee38b36" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Livros" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Livros.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.Protobuf.dll" size="294400">
+      <assemblyIdentity name="Google.Protobuf" version="3.5.1.0" publicKeyToken="A7D26565BAC4D604" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kmmLSyM9YCkmP+X33YMDTg/6sJlFHUuInLwRv1o/LXM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Livros.exe" size="4757936">
+      <assemblyIdentity name="Livros" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f80EphvlrbUhqfOtBSidXMecHzthcRs1lAzT2mSyI9Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="708608">
+      <assemblyIdentity name="MySql.Data" version="8.0.15.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>csTtN1Dz7O3Ap24hir7uPIxKZlXZR6aCAPiKHL53CWo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.EntityFramework.dll" size="393728">
+      <assemblyIdentity name="MySql.Data.EntityFramework" version="8.0.15.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>s0R1caWQz5SjzUPsD2ro7JdCemj+HjtEeONLa7R3Lj8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySQL.Data.EntityFrameworkCore.dll" size="62464">
+      <assemblyIdentity name="MySql.Data.EntityFrameworkCore" version="8.0.15.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>L+Ly6q1qQDKkKQFBh/vHYYy+LDITaHI6W27Q22uLDx0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySQL.Data.EntityFrameworkCore.Design.dll" size="24064">
+      <assemblyIdentity name="MySql.Data.EntityFrameworkCore.Design" version="8.0.15.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vDsLEPKOlLggEKHyo/XMuWueQ3Iqqq+E7ifYFkObBB4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Web.dll" size="162304">
+      <assemblyIdentity name="MySql.Web" version="8.0.15.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>E8kpztDKJxdg/Zh+b9gKQFy/cnEVI14t10SFPEVdZ7Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Livros.exe.config" size="921">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aSOTDGDXWubbz+wSpC7qYyARgB1l+iG8GfLg7svtWw0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JAAJZIN\joaoz" issuerKeyHash="447f67dd087706d1381ef07091ecd41a3e024966" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vqFtv83MqbUOtuycJlbtTojmWSXKaaM0PJWLEE/zxfU=</DigestValue></Reference></SignedInfo><SignatureValue>ffXnk807xJpiNNmr+yIBXZ6mBeBBu1Z3sDsN0/vRrFJjUE0LFd/8WAEUYh1OXYP+Ktxy/qsf3EA8aR59f76pjJOq9JcVKs4u70hYYLO6UO80qXmSvl5G6taKGxMbFkgZjOVOABIzXrfMSUEy4kbPUel5U1UP6pFiculrshmzpSU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nY3JHXK+dCGGg6+hpr2nUm0YLj1CL1ggaCuKlFL0O6wYgkLaR33+J/gvcX9kEK8E77hv+pJfx1L6H4i7bITtWgIK+D0cx9GNL2addxpKNxwSQJg0o3gmUNSUUaLgV3zIp6DIjVnf6OW8gN97JRfm1LJciDs37TBxu2JAlGX3Tg0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f5c5f34f108b953c34a369ca2559e6884eed56269cecb60eb5a9cccdbf6da1be" Description="" Url=""><as:assemblyIdentity name="Livros.exe" version="1.0.0.2" publicKeyToken="f3ff64c75ee38b36" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JAAJZIN\joaoz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>19XuCXpDuW00IlHT1pwslqXxSIeTRdlCOJalBsNanzQ=</DigestValue></Reference></SignedInfo><SignatureValue>PVsSvyDGVGWoRyCw+pnz6pola8NDpno6a7Tf+QOYHGoWSvqLlGYpusZJVb3hZXIqT8VL8EwSynJKHB5jeTs1Eyy3aYc225pJ6zeqXj1G41xU5W8/0+fnCUE99yOjtuRkawHMkqQ7vXLimvNNcirLy8YTX/UPPBXkDkEFJ611xHk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nY3JHXK+dCGGg6+hpr2nUm0YLj1CL1ggaCuKlFL0O6wYgkLaR33+J/gvcX9kEK8E77hv+pJfx1L6H4i7bITtWgIK+D0cx9GNL2addxpKNxwSQJg0o3gmUNSUUaLgV3zIp6DIjVnf6OW8gN97JRfm1LJciDs37TBxu2JAlGX3Tg0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQJdPkliTj5bpLLcLfQ6CtCDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASgBBAEEASgBaAEkATgBcAGoAbwBhAG8AejAeFw0xOTA0MDEwNDAzMTVaFw0yMDAzMzExMDAzMTVaMCUxIzAhBgNVBAMeGgBKAEEAQQBKAFoASQBOAFwAagBvAGEAbwB6MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdjckdcr50IYaDr6GmvadSbRguPUIvWCBoK4qUUvQ7rBiCQtpHff4n+C9xf2QQrwTvuG/6kl/HUvofiLtshO1aAgr4PRzH0Y0vZp13Gko3HBJAmDSjeCZQ1JRRouBXfMinoMiNWd/o5byA33slF+bUslyIOzftMHG7YkCUZfdODQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJmY9YQTcaez25khwwp1kF7FYGOad1CNT/ncyp7p4RbleoTP1sOHnSe/Hj8vuviDCLGE9N9TM/wxN4Q22IquAqkACDD820072iDen5QrAalISifAevcO2fG9diImsqTOZSBMamtZ913LKJo1jO5ySIivw/pd8Q+90L/VauiFycd3</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
